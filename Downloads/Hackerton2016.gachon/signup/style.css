@@ -1,0 +1,42 @@
+@font-face {
+		font-family: 'NanumBarunGothic';
+		font-style: normal;
+		src: url('/assets/fonts/NanumBarunGothicLight.eot');
+		src: url('/assets/fonts/NanumBarunGothicLight.eot') format('embedded-opentype'),
+		url('/assets/fonts/NanumBarunGothicLight.woff') format('woff'),
+		url('/assets/fonts/NanumBarunGothicLight.ttf') format('truetype');
+	}
+
+* { font-family: 'NanumBarunGothic'; }
+
+html{
+	margin: 0px;
+	padding: 0px;
+	min-width: 1024px;
+	width: 100%;
+
+	background-image: url("/assets/img/bg_cover.png");
+	background-position: top;
+	background-color: rgb(51,51,51);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+
+
+	margin: 0px auto;
+
+	width: 1024px;
+	min-width: 1024px;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

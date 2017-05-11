@@ -1,0 +1,123 @@
+#bg_cover {
+	width: 100%;
+}
+
+#main_cover {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 940px;
+	height: 1000px;
+
+	margin-top: -250px;
+	margin-left: -460px;
+	padding: 10px;
+
+
+	background-color: white;
+}
+
+.lt_circle {
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+#main_container {
+
+	width: 940px;
+	height: 460px;
+	padding-top: 40px;
+	/*margin-left: -10px;*/
+	padding-bottom: -5px;
+	background-image: url("/assets/img/gra_bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.main_logo {
+	height: 200px;
+
+	text-align: center;
+}
+
+
+
+.login_span{
+	position: relative;
+	top: 0px;
+	display: inline-block;
+	width: 110px;
+	height: 35px;
+	color: white;
+	padding-top: 15px;
+	text-align: center;
+	background-color: black;
+	background-image:url("/assets/img/input.png");
+
+}
+
+#login_form {
+	width: 700px;
+
+	margin: 0px auto;
+	text-align: center;
+}
+
+#login_form input[type="text"] {
+	display: inline-block;
+	height: 48px;
+	width: 400px;
+	padding-left: 10px;
+	margin-left: -4px;
+	background-color: rgba(0,0,0,0.6);
+	border: 0px;
+	font-size: 15px;
+	color: white;
+	outline: none;
+}
+
+#password{
+	display: inline-block;
+	height: 48px;
+	width: 400px;
+	padding-left: 10px;
+	margin-left: -4px;
+	background-color: rgba(0,0,0,0.6);
+	border: 0px;
+	font-size: 15px;
+	color: white;
+	outline: none;
+}
+#checkpassword{
+	display: inline-block;
+	height: 48px;
+	width: 400px;
+	padding-left: 10px;
+	margin-left: -4px;
+	background-color: rgba(0,0,0,0.6);
+	border: 0px;
+	font-size: 15px;
+	color: white;
+	outline: none;
+}
+#login_form button{
+	cursor: pointer;
+	width: 150px;
+	border: 0px;
+	font-size: 20px;
+	color:white;
+	background-color: rgba(0,0,0,0);
+}
+
+#join_us_now{
+	background-image:url("/assets/img/JoinUs.png");
+	width: 200px;
+	height: 50px;
+	position: relative;
+	left: 350px;
+	font-size: 20px;
+	color:white;
+}
+

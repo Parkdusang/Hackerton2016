@@ -1,0 +1,277 @@
+#bg_cover {
+	width: 100%;
+}
+
+#main_cover {
+	position: absolute;
+	top: 49%;
+	left: 50%;
+	width: 940px;
+	height: 1400px;
+
+	margin-top: -250px;
+	margin-left: -460px;
+	padding: 10px;
+
+
+	background-color: white;
+}
+
+.lt_circle {
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.main_shortcut ul {
+	float: right;	
+}
+
+.main_shortcut li {
+	position: relative;
+	left: -20px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	margin-left: 20px;
+}
+
+.main_shortcut a {
+	color: white;
+	text-decoration: white;
+}
+
+#main_container {
+	width: 940px;
+	height: 460px;
+	/*margin-left: -10px;*/
+	padding-bottom: -5px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.main_logo {
+	/*height: 200px;*/
+	position: absolute;
+	top:80px;
+	left:50%;
+	margin-left: -166px;
+
+	/*text-align: center;*/
+}
+
+.main_search {
+	height: 50px;
+	width: 100%;
+}
+
+.main_search input {
+	width: 380px;
+	height: 50px;
+	border:1px solid black;
+
+	font-size : 18px;
+
+	margin: 0px;
+	padding: 0px 10px;
+
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+
+/*강의 이름, 교수 시간*/
+
+#lecture_status {	
+	background-color: white;	
+	padding: 20px 0px;
+}
+
+.lecture_left {
+	display: inline-block;
+	width: 470px;
+	height: 60px;
+	margin-top: 20px;
+	padding-right: 30px;
+	border-right: 5px solid black;
+}
+
+.lecture_left h1 {
+	text-align: right;
+	font-size: 50px;
+	margin: 0px;
+	margin-right: 10px;
+}
+
+.lecture_right_set {
+	display: inline-block;
+	width: 300px;
+	margin-left: 10px;
+}
+
+.lecture_right {
+	width: 500px;
+}
+
+.lecture_right span{
+	font-size: 20px;
+	padding-bottom: 10px;
+
+}
+
+#lecture_features {
+	background-color: white;	
+	padding: 20px 0px;
+}
+
+#feature_table {
+	width: 940px;
+	max-width: 940px;
+	height: 300px;	
+	text-align: center;
+}
+
+#feature_table td {
+	width: 180px;
+	/*border: 1px solid black;*/
+	background-color: rgba(9,59,72,1);
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+/*HASHTAG*/
+
+#lecture_hashTag {
+	width: 940px;
+	height: 500px;
+	border: 1px solid black;
+	background-image: url(/assets/img/bg_hashtag.png);
+	background-size:     cover;   
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*comment*/
+
+#comment_container{
+	padding-top: 30px;
+}
+
+.write_comment {
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.write_comment input[type="text"] {
+	display: inline-block;
+	width: 80%;
+	font-size: 15px;
+	padding-left: 15px;
+	height: 30px;
+}
+
+.write_comment button {
+	position: relative;
+	top: -2px;
+	display: inline-block;
+	width: 120px;
+	height: 35px;
+	/*background-color: #7a919d;*/
+	background-color: white;
+	border:3px solid #053b4e;
+	color: black;
+	border-radius: 1px;
+}
+
+#comments {
+	margin-left: 15px;
+}
+
+.comment {
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+/*ALL*/
+h2 {
+	margin-top: 50px;
+	color: #c2c2c2;
+	text-align: center;
+}
+
+
+
+.login_span{
+	position: relative;
+	top: 20px;
+	display: inline-block;
+	width: 50px;
+	height: 35px;
+	color: white;
+	padding-top: 15px;
+	text-align: center;
+	background-color: black;
+	background-image:url("/assets/img/searchicon.png");
+
+}
+
+#login_form {
+	width: 700px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#login_form input[type="text"] {
+	display: inline-block;
+	height: 48px;
+	width: 500px;
+	padding-left: 10px;
+	margin-left: -4px;
+	background-color: rgba(0,0,0,0.6);
+	border: 0px;
+	font-size: 15px;
+	color: white;
+
+	outline: none;
+}
+
+
+#login_form button{
+	cursor: pointer;
+	width: 150px;
+	border: 0px;
+	font-size: 20px;
+	color:white;
+	background-color: rgba(0,0,0,0);
+}
+
+#comments{
+position: relative;
+width: 960px;
+margin-left: -10px;
+	background-color: white;
+
+
+}
+#cate1{
+	position: absolute;
+	
+	top: 40px;
+}
+#cate2{
+	position: absolute;
+	left: 350px;
+	top: 40px;
+}
+#cate3{
+	position: absolute;
+	left: 590px;
+	top: 40px;
+}
+#lectestimate{
+	margin: auto;
+}
